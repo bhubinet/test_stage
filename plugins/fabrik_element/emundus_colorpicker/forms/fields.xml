@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+
+	<fields addfieldpath="/administrator/components/com_fabrik/models/fields">
+		<fieldset label="COM_FABRIK_OPTIONS" name="plg-element-emundus_colorpicker">
+
+			<field type="helplink"
+				url="PLG_ELEMENT_COLOURPICKER_HELP_SERVER" />
+				
+			<field name="default"
+				type="text"
+				label="COM_FABRIK_DEFAULT" />
+
+		</fieldset>
+	</fields>
+	
+	<fields name="params">
+		<fieldset label="PLG_ELEMENT_COLOURPICKER_ADVANCED_LABEL" addfieldpath="/administrator/components/com_fabrik/models/fields" name="plg-element-emundus_colorpicker-advanced">
+		
+			<field type="helplink"
+				url="PLG_ELEMENT_COLOURPICKER_HELP_SERVER" />
+		</fieldset>
+	</fields>
+</form>
