@@ -8,16 +8,27 @@ L'objectif de ce test est d'évaluer l'autonomie et la capacité d'adaptation du
 
 ## Consignes
 - Cloner ce repository
-- Lancer le projet avec Docker\
-``bash
-  docker-compose -f docker-compose.yml up --build -d
-``
-- Le projet est accessible à l'adresse http://localhost:8484
+- Lancer le projet avec Docker
+    ```bash
+      docker-compose -f docker-compose.yml up --build -d
+    ```
+- Le premier démarrage prend environ 30 secondes. Le projet est ensuite accessible à l'adresse http://localhost:8484
 - Les instructions des exercices sont présentes sur la page d'accueil du projet
 
 ## Accéder à l'administration Joomla
 - Rendez-vous à l'adresse http://localhost:8484/administrator
 - Identifiants : sysadmin / password
+
+## Accéder à la base de données
+Vous pouvez accéder à la base de données via un outil tel que [DBeaver](https://dbeaver.io/) ou [Datagrip](https://www.jetbrains.com/fr-fr/datagrip/). Les informations de connexion sont les suivantes :
+- Host : localhost
+- Port : 13309
+- Database : joomla
+- User : user
+- Password : password
+
+## Fichiers de travail
+- Les fichiers de travail sont situés dans le dossier `plugins/fabrik_elements/emundus_colorpicker/`
 
 ## Rendu
 - Envoyer un lien vers votre repository à l'adresse mail qui vous a été communiquée
