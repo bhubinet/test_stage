@@ -5,9 +5,14 @@ L'objectif de ce test est d'évaluer l'autonomie et la capacité d'adaptation du
 
 ## Pré-requis
 - Installer [Docker](https://docs.docker.com/get-docker/)
+- Prendre connaissances des documentations ci-dessous
 
 ## Consignes
 - Cloner ce repository
+   ```bash
+      git clone git@github.com:bhubinet/test_stage.git
+   ```
+- Ouvrez le projet avec votre IDE favori (VSCode, PHPStorm, ...)
 - Lancer le projet avec Docker
     ```bash
       docker-compose -f docker-compose.yml up --build -d
@@ -17,7 +22,8 @@ L'objectif de ce test est d'évaluer l'autonomie et la capacité d'adaptation du
 
 ## Accéder à l'administration Joomla
 - Rendez-vous à l'adresse http://localhost:8484/administrator
-- Identifiants : sysadmin / password
+- Connectez-vous avec les identifiants suivants : sysadmin / password
+- Vous pouvez ensuite accéder aux paramètres des éléments de formulaire via le menu à gauche : Composants > Fabrik > Eléments
 
 ## Accéder à la base de données
 Vous pouvez accéder à la base de données via un outil tel que [DBeaver](https://dbeaver.io/) ou [Datagrip](https://www.jetbrains.com/fr-fr/datagrip/). Les informations de connexion sont les suivantes :
